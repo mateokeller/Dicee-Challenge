@@ -1,0 +1,66 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 5%;
+}
+
+.dice-box {
+  border-radius: 20px;
+  height: 16rem;
+  background: #e0e0e0;
+  box-shadow: 20px 30px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8rem;
+  color: #fca311;
+}
+
+p {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fca311;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e0e0e0;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
+footer {
+  margin-top: 5%;
+  color: #000000;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
